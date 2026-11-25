@@ -10,7 +10,7 @@ Hier überarbeitet für PHP 8 und die aktuelle LMO-Version.
 ## Voraussetzungen
 
 - LMO (PHP-8-Version) mit den Addons `addon/mini/lmo-minitab.php` und `addon/mini/lmo-mininext.php`
-- Optional: das Paket `mininext_mehr_php8.zip` (Template `mininext_all.tpl.php`, Archiv-Spiele ein-/ausklappbar)
+- Optional: das Repository [mininext_jquery_by_marcus](https://github.com/henshingly/mininext_jquery_by_marcus) (Template `mininext_all.tpl.php`, Archiv-Spiele ein-/ausklappbar)
 
 ## Installation
 
@@ -49,7 +49,7 @@ $mini_template = 'mininext_all.tpl.php'; // Template für mininext
 - Nur **minitab** gewünscht: den mininext-Block (zweite `<tr>`) entfernen.
 - Nur **mininext** gewünscht: den minitab-Block (erste `<tr>` mit `lmo-minitab.php`) entfernen.
 - Archiv für mininext: optional `$folder = 'archiv/auswahl';` vor dem mininext-Include setzen.
-- Anzahl der zuerst sichtbaren Archiv-Spiele (nur mit dem Paket `mininext_mehr_php8.zip`):
+- Anzahl der zuerst sichtbaren Archiv-Spiele (nur mit [mininext_jquery_by_marcus](https://github.com/henshingly/mininext_jquery_by_marcus)):
   `$mini_anzahlSpiele = 4;` vor dem mininext-Include.
 
 ## In eine bestehende Seite einbinden
